@@ -22,10 +22,6 @@ var sharkWithFrickinLaserbeam = sharkCreator.deadlyDevice('Laserbeam');
 var sharkWithFrickinCannon = sharkCreator.deadlyDevice('Cannon');
 
 function createAnimal(animalType){
-  const animal = {
-    animalType: animalType,
-    deadlyDevice:  null
-  }
   
   return function(){
     return deadlyDevice
