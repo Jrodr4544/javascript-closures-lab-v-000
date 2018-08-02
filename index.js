@@ -23,7 +23,7 @@ var sharkWithFrickinCannon = sharkCreator.deadlyDevice('Cannon');
 
 function createAnimal(animalType){
   
-  return function(){
+  return function(animalType){
     return deadlyDevice
   }
 }
