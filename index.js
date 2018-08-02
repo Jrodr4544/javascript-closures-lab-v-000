@@ -23,6 +23,6 @@ function createAnimal(animalType){
 
 var sharkCreator = createAnimal('Shark');
 // closures Dangerous animals should have a `sharkWithFrickinLaserbeam` variable:
-var sharkWithFrickinLaserbeam = sharkCreator.deadlyDevice('Laserbeam');
+var sharkWithFrickinLaserbeam = sharkCreator('Laserbeam');
 
-var sharkWithFrickinCannon = sharkCreator.deadlyDevice('Cannon');
+var sharkWithFrickinCannon = sharkCreator('Cannon');
