@@ -27,7 +27,7 @@ function createAnimal(animalType){
     deadlyDevice:  null
   }
   
-  return function(deadlyDevice){
-    return animal
+  return function(){
+    return deadlyDevice
   }
 }
