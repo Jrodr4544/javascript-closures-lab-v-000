@@ -15,15 +15,14 @@ function bumpCounter() {
   }
 }
 
-var sharkCreator = createAnimal('Shark');
-// closures Dangerous animals should have a `sharkWithFrickinLaserbeam` variable:
-var sharkWithFrickinLaserbeam = sharkCreator.deadlyDevice('Laserbeam');
-
-// var sharkWithFrickinCannon = sharkCreator.deadlyDevice('Cannon');
-
 function createAnimal(animalType){
-  
   return function(animalType){
     return deadlyDevice
   }
 }
+
+var sharkCreator = createAnimal('Shark');
+// closures Dangerous animals should have a `sharkWithFrickinLaserbeam` variable:
+var sharkWithFrickinLaserbeam = sharkCreator.deadlyDevice('Laserbeam');
+
+var sharkWithFrickinCannon = sharkCreator.deadlyDevice('Cannon');
